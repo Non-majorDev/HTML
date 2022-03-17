@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Web - HTML</title>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <ol>
+      <li><a href="..\index.html">HTML</a></li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+
+    <h1>HTML</h1>
+
+    <p style="margin-top:20px;">
+
+      <ol>
+        <li><a href="HTML_tag.html">태그란?</a></li>
+        <li><a href="HTML_tag_attribute.html">태그의 속성</a></li>
+        <li><a href="HTML_parentChild&List.html">부모와 자식 태그 그리고 목록</a></li>
+        <li>html/head/body/title 본문과 본문을 설명하는 태그</li>
+        <li>링크를 만들어보자!</li>
+      </ol>
+    </p>
+
+    <p style="margin-top:100px;">
+      <h2>부모와 자식 태그 그리고 목록</h2>
+
+
+      <p style="margin-top:50px;">
+        <h3>부모 태그, 자식 태그</h3>
+
+        아래 코드를 보자.
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_1.png" width="50%">
+
+        <br><br>
+
+        물론 parent나, child라는 이름을 가진 태그는 존재하지 않지만, 이해를 위해 적어두었다.
+
+        <br><br>
+
+        위의 parent 태그에 대해서 child 태그를 자식 태그라고 하며, child 태그에 대해서 parent 태그를
+        부모 태그라고 한다.
+
+        <br><br>
+
+        실제로 작성된 코드를 예를들어서 설명해보자.
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_2.png" width="80%">
+
+        <br><br>
+
+        위 코드에서 p는 li (list 태그이다 이후에 배울 내용이다.) 태그의 부모 태그이고,
+        li 태그는 p 태그의 자식태그이다. 하지만, 이 li 태그는 꼭 p 의 자식 태그여야 하는 것은 아니고,
+        p 역시 반드시 li의 부모 태그일 필요는 없다.
+
+        <br><br>
+
+        하지만 위 두 태그와는 다르게, 반드시 부모 자식 관계여야 하는 태그들이 존재하는데, 여러가지가
+        존재하겠지만, 우리가 앞으로 배울 내용인 목록을 만드는 태그들이 위의 대표적인 예시이다.
+
+        <br><br>
+
+        바로 알아보도록 해보자.
+      </p>
+
+
+      <p style="margin-top:100px;">
+        <h3>목록을 만들어보자!</h3>
+
+        우리는 지금 목록을 만들려고 한다. 물론 목록을 숫자와 줄바꿈 연산자인 br 태그를 사용해서 표현해도
+        되지만, 우리는 조금 더 "프로그래머" 스러운 방법으로 목록을 만들어 볼 것이다.
+
+        <br><br>
+
+        목록을 작성하기 위해서 li 라는 태그를 사용할 예정인데, 해당 태그들의 경계를 표시하기 위해
+        ol 혹은 ul이라는 태그를 부모태그로 활용하여 묶어줄 예정이다.
+
+        <br><br>
+
+        ul, ol 태그와 li 태그는 위에서 이야기 하였듯이 반드시 부모 자식 관계여야 하는 태그들 중 하나이다.
+
+        <br><br>
+
+        그렇다면 ul, ol 그리고 li 태그는 어떻게 사용하면 될지, 무슨 기능을 하는 것이고 차이는 무엇인지
+        코드와 적용된 예시를 보며 바로 알아보도록 하자.
+
+        <br><br><br>
+
+        <h4>li 태그</h4>
+
+        li 태그는 우리가 목록을 만들 때 사용하는 태그이고 사용방법은 원하는 내용을 li 태그로 감싸주면 된다.
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_3.png" width="80%">
+
+        <br><br>
+
+        아래는 위 코드의 결과이다.
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_4.png" width="50%">
+
+        <br><br>
+
+        코드에 적혀있는 a 태그는 신경쓰지 말자, 훗날에 링크 태그를 배워야 할 때 배울 것이다.
+
+        <br><br>
+
+        결과창을 한번 보자, 아름다운 목록이 만들어졌다! 이로서 li라는 태그를 통해 더욱 "프로그래머" 답게
+        목록을 만들어보았다.
+
+        <br><br>
+
+        우리 더 나아가 목록을 하나 추가해보자.
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_5.png" width="80%">
+
+        <br><br>
+
+        짜잔! 아래가 바로 결과창이다
+
+        <br><br>
+
+        <img src="..\Image\img_parentChild&List\img_parentChild&List_6.png" width="50%">
+
+        <br><br>
+
+        ... 서로 다른 두 개의 목록이 합쳐진 것으로 보이지 않는가?
+
+        <br><br>
+
+        우리는 이러한 상황을 방지하기 위해, ul과 ol이라는 경계를 통해 위 두 목록이 서로 다른 목록임을 표현할 것이다.
+
+        <p style = "margin-top:100px;">
+          <h4>ul 그리고 ol</h4>
+
+          우리는 위에서 li 태그가 하는 일이 무엇인지, 또한 ul태그나 ol 태그가 필요한 이유가 무엇인지 알아보았다.
+
+          <br><br>
+
+          그렇다면 ol과 ul의 차이점은 무엇일까? 이 역시 예시를 통해 알아보도록 하자.
+
+
+          <br><br><br>
+
+
+          먼저, ul을 통해 위의 두 목록을 구분해보자.
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_7.png" width="80%">
+
+          <br><br>
+
+          위처럼 ul 태그로 li로 표현된 목록을 감싸면 된다. 결과창을 한번 보자.
+
+          <br><br>
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_8.png" width="50%">
+
+          <br><br>
+
+          줄바꿈 태그가 없지만 성공적으로 목록이 분리되어 보이는 것이 보이는가?
+
+
+
+          <br><br><br><br>
+
+
+
+          이번엔 한번 번호를 붙여보는 것은 어떨까?
+
+          <br><br>
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_9.png" width="80%">
+
+          <br><br>
+
+          아래는 결과이다.
+
+          <br><br>
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_10.png" width="50%">
+
+          <br><br>
+
+          번호를 붙이는 것은 성공했지만, 만약 목록이 100개라면 어떨까? 혹은 1000개라면?
+
+          <br><br>
+
+          자동으로 번호를 붙여주는 그런 태그는 없는 것일까? 이러한 점을 해결하기 위해 ol 태그가 존재한다.
+
+
+
+          <br><br><br><br>
+
+
+
+          한번 위 코드의 ul태그를 ol태그로 변경하면 어떻게 되는지 볼까?
+
+          <br><br>
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_11.png" width="80%">
+
+          <br><br>
+
+          목록 앞에 붙여주는 숫자는 자동으로 붙을 것이기 때문에 삭제해주었다.
+
+          <br><br>
+
+          <img src="..\Image\img_parentChild&List\img_parentChild&List_12.png" width="50%">
+
+          <br><br>
+
+          코드에 숫자를 붙이지 않았는데도 순차적으로 숫자가 붙여진 목록이 만들어졌다.
+
+          <br><br>
+
+          사실, ul은 unordered list 의 약자, ol 은 ordered list 의 약자이다.
+
+          <br><br>
+
+          따라서 만약 앞에 순번을 붙여서 목록을 만들어주고 싶다면 ol 태그를 통해 li 태그를 감싸면 되고,
+          순번을 붙이지 않고 목록을 만들어주고 싶다면 ul 태그를 통해 li 태그를 감싸주면 된다.
+
+        </p>
+
+      </p>
+
+    </p>
+
+  </body>
+</html>
